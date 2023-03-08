@@ -1,12 +1,11 @@
 package FrontControllerPrototype.data;
 
-import FrontControllerPrototype.enums.ServEnum;
 public class Request {
-   private String serviceName;
-   private String methodName;
-   private Long CatId;
-   private Long ProdId;
-   private Long ManId;
+    private String serviceName;
+    private String methodName;
+    private Long сatId;
+    private Long prodId;
+    private Long manId;
 
     public Request() {
     }
@@ -14,9 +13,9 @@ public class Request {
     public Request(String serviceName, String methodName, Long catId, Long prodId, Long manId) {
         this.serviceName = serviceName;
         this.methodName = methodName;
-        CatId = catId;
-        ProdId = prodId;
-        ManId = manId;
+        this.сatId = catId;
+        this.prodId = prodId;
+        this.manId = manId;
     }
 
     public String getServiceName() {
@@ -35,28 +34,28 @@ public class Request {
         this.methodName = methodName;
     }
 
-    public Long getCatId() {
-        return CatId;
+    public Long getСatId() {
+        return сatId;
     }
 
-    public void setCatId(Long catId) {
-        CatId = catId;
+    public void setСatId(Long сatId) {
+        this.сatId = сatId;
     }
 
     public Long getProdId() {
-        return ProdId;
+        return prodId;
     }
 
     public void setProdId(Long prodId) {
-        ProdId = prodId;
+        this.prodId = prodId;
     }
 
     public Long getManId() {
-        return ManId;
+        return manId;
     }
 
     public void setManId(Long manId) {
-        ManId = manId;
+        this.manId = manId;
     }
 
     @Override
@@ -64,9 +63,9 @@ public class Request {
         return "Request{" +
                 "serviceName='" + serviceName + '\'' +
                 ", methodName='" + methodName + '\'' +
-                ", CatId=" + CatId +
-                ", ProdId=" + ProdId +
-                ", ManId=" + ManId +
+                ", CatId=" + сatId +
+                ", ProdId=" + prodId +
+                ", ManId=" + manId +
                 '}';
     }
 }

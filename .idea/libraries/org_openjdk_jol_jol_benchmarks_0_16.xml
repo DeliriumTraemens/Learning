@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="org.openjdk.jol:jol-benchmarks:0.16" type="repository">
+    <properties maven-id="org.openjdk.jol:jol-benchmarks:0.16" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/openjdk/jol/jol-benchmarks/0.16/jol-benchmarks-0.16.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/openjdk/jmh/jmh-core/1.25.2/jmh-core-1.25.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/net/sf/jopt-simple/jopt-simple/4.6/jopt-simple-4.6.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-math3/3.2/commons-math3-3.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/openjdk/jol/jol-core/0.16/jol-core-0.16.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.ideaLibSources/jol-core-0.16-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

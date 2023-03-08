@@ -45,6 +45,6 @@ public class App {
         ArrayList<Double> ints = new ArrayList<>();
 //        безымянный объект Рандома, генерящий поток цыфр, через форИч пихуемый в ранеесозданный Лист
         new Random(1).doubles(1000).forEach(ints::add);
-        System.out.println("End " + (System.nanoTime() - startTime)  + " sec");
+        System.out.println("End " + (System.nanoTime() - startTime) /1000 + " sec");
     }
 }
