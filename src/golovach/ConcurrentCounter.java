@@ -11,7 +11,7 @@ public class ConcurrentCounter {
         Thread t0 = new Thread(new Runnable() {
             @Override
             public void run() {
-                for (int i = 0; i < N; i++) counter++;
+                for (int i = 0; i < N; i++) inc();
             }
         });
         t0.start();
@@ -19,7 +19,7 @@ public class ConcurrentCounter {
         Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {
-                for (int i = 0; i < N; i++) counter++;
+                for (int i = 0; i < N; i++) inc();
             }
         });
         t1.start();
