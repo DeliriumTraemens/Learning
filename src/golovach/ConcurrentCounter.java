@@ -1,9 +1,9 @@
 package golovach;
 
 public class ConcurrentCounter {
-    public static final int N = 100_000_000;
+    public static final int N = 10_000_000;
     public static  volatile int counter = 0;
-    public static void inc(){
+    public static synchronized void inc(){
         counter++;
     }
 
