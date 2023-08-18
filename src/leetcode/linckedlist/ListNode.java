@@ -4,6 +4,8 @@ public class ListNode {
 
 private int value;
 public ListNode next;
+public ListNode first;
+public ListNode last;
 
 public ListNode(int value){
     this.value = value;
