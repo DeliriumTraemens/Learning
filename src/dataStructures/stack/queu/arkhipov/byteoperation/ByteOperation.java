@@ -1,6 +1,6 @@
 package dataStructures.stack.queu.arkhipov.byteoperation;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
+//import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
 
 public class ByteOperation {
     public static void main(String[] args) {

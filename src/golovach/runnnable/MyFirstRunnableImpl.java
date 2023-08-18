@@ -1,9 +1,9 @@
 package golovach.runnnable;
 
-public class RunnableImpl implements Runnable{
+public class MyFirstRunnableImpl implements Runnable{
 
     @Override
-    public synchronized void run() {
+    public void run() {
         System.out.println("1 It's run() method in Thread "+Thread.currentThread().getName());
         System.out.println("2 It's run() method in Thread "+Thread.currentThread().getName());
         System.out.println("3 It's run() method in Thread "+Thread.currentThread().getName());

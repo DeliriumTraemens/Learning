@@ -8,6 +8,7 @@ public class Cat extends Animal {
         return "Cat{" +
                 "name='" + name + '\'' +
                 ", id=" + id +
+                ", type='" + type + '\'' +
                 '}';
     }
 

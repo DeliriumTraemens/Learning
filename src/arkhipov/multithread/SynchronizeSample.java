@@ -3,11 +3,11 @@ package arkhipov.multithread;
 public class SynchronizeSample {
     private static int counter;
 
-     public static void test1() {
+     public static void test1(Object locker) {
         Runnable runnable = new Runnable() {
             @Override
             public void run() {
-                synchronized(this){
+                synchronized(locker){
                     counter = 0;
                     for (int i = 0; i < 25; i++) {
                         counter++;
@@ -36,9 +36,19 @@ public class SynchronizeSample {
          }
     }
 
+    private static synchronized void synchroBlock(){
+            System.out.println("1");
+            System.out.println("2");
+            System.out.println("3");
+    }
+
     
     public static void main(String[] args) {
-        test1();
+
+        synchroBlock();
+
+        Object lockerObj = new Object();
+        test1(lockerObj);
     }
 
 }

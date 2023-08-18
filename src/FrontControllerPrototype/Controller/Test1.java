@@ -3,7 +3,7 @@ package FrontControllerPrototype.Controller;
 import FrontControllerPrototype.data.Request;
 import FrontControllerPrototype.enums.ServEnum;
 import FrontControllerPrototype.service.CategoryService;
-import com.sun.xml.internal.bind.v2.TODO;
+//import com.sun.xml.internal.bind.v2.TODO;
 
 import java.lang.invoke.MethodHandles;
 import java.lang.invoke.MethodType;
@@ -20,7 +20,7 @@ public class Test1 {
         CategoryService catserv=new CategoryService();
 
         buildClassNameMap();
-//        TODO add to Request setters for params - long etc
+//         add to Request setters for params - long etc
         Request request = new Request("cat", "getTotalCategoryList",111L,0L, 0L);
 //        String getTotalCategoryList = (String)MethodHandles.publicLookup().findVirtual(FrontControllerPrototype.service.CategoryService.class,
 //                "getCategoryById",
